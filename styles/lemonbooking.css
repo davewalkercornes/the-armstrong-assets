@@ -1,0 +1,228 @@
+@font-face {
+  font-display: swap;
+  font-family: Season Sans Light;
+  src: url("https://raw.githack.com/davewalkercornes/the-armstrong/main/src/styles/fonts/SeasonSans-Light.otf") format("opentype"),
+  url("https://raw.githack.com/davewalkercornes/the-armstrong/main/src/styles/fonts/SeasonSans-Light.ttf") format("truetype");
+}
+
+body, th {
+  background-color: #F1ECE3 !important;
+  font-family: Season Sans Light, sans-serif !important;
+}
+
+.user-generated-content * {
+  font-family: Season Sans Light, sans-serif !important;
+}
+.user-generated-content h1, .user-generated-content h1 strong, .user-generated-content h1 span, .user-generated-content h1 i,
+.user-generated-content h2, .user-generated-content h2 strong, .user-generated-content h2 span, .user-generated-content h2 i,
+.user-generated-content h3, .user-generated-content h3 strong, .user-generated-content h3 span, .user-generated-content h3 i,
+.user-generated-content h4, .user-generated-content h4 strong, .user-generated-content h4 span, .user-generated-content h4 i,
+.user-generated-content h5, .user-generated-content h5 strong, .user-generated-content h5 span, .user-generated-content h5 i,
+.user-generated-content h6, .user-generated-content h6 strong, .user-generated-content h6 span, .user-generated-content h6 i {
+  font-family: Season Sans Light, sans-serif !important;
+}
+
+/* if adding span here be specific */
+p, h1, h2, h3, h4, h5, h6, a, li, div, td, th, tr, dd, 
+label, span.text-black, div#facility-legend span, button svg, 
+tbody, button.text-indigo-500, .trix-content h2, .trix-content h3,
+h2.text-2xl span {
+  color: #232323 !important;
+  border-color: black !important;
+}
+
+a.branding-secondary-color {
+  color: #F1ECE3 !important;
+}
+
+div.border-gray-200 {
+  border-color: #C85633 !important;
+}
+
+div.text-sm, div.text-xs, span.text-gray-800, dt {
+  color: #39322D !important;
+}
+
+.border-transparent, div[id*="day-calendar-time-slots"] div {
+  border-width: 0 !important;
+}
+
+div:not([class*="facility"]), tbody  {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+div[role="dialog"], div.modal-content-wrap, div.modal-content {
+  color: #39322D !important;
+  background-color: #F1ECE3 !important;
+}
+
+div[id*="tippy"] {
+  background-color: #F1ECE3 !important;
+  border-radius: 5px !important;
+}
+
+a[class*="hover"]:hover, button[class*="hover"]:hover {
+  color: #39322D !important;  
+}
+
+tr.bg-white {
+  background-color: #F1ECE3 !important;
+}
+tr.bg-gray-50 {
+  background-color: #D1C1AC !important;
+}
+
+.hover\:bg-gray-50:hover {
+  background-color: #D1C1AC !important;
+}
+
+div[class*="facility"] span, span[class*="facility"], button.text-xs.underline, div#day-calendar-time-slots div.text-gray-800 {
+  color: #39322D !important;
+}
+
+div.rounded-md.bg-white {
+  background-color: #D1C1AC !important;
+}
+
+div.bg-yellow-50 {
+  background-color: #FEFCE8 !important;
+}
+
+.text-yellow-700 {
+  color: #A16207 !important;
+}
+
+div.text-red-600 {
+  color: red !important;
+}
+
+div#day-calendar-time-slots  {
+  font-weight: bold !important;
+}
+
+/* Weekend colour */
+th.bg-blue-50, div.bg-blue-100 {
+  background-color: #F1ECE3  !important;
+}
+
+span#legend-weekend {
+  background-color: #F1ECE3  !important;
+  color: #39322D  !important;
+  border-color: black !important;
+  border-width: 1px !important;
+}
+
+/* Today colour */
+th.bg-yellow-50, div.bg-yellow-100 {
+  background-color: #49482e  !important;
+}
+span#legend-today {
+  background-color: #49482e  !important;
+  color: #49482e  !important;
+  border-color: black !important;
+  border-width: 1px !important;
+}
+
+
+input, input.text-gray-900, select.text-gray-900, textarea {
+  color: #39322D !important;
+  background-color: #F1ECE3 !important;
+}
+
+.bg-emerald-500, .bg-indigo-600 {
+  background-color: #C85633;
+  color: #F1ECE3 !important;
+}
+
+.hover\:bg-indigo-700:hover {
+  background-color: #A16207 !important;
+  color: #F1ECE3 !important;
+}
+
+svg {
+  color: #C85633;
+}
+
+div[style="background: repeating-linear-gradient(45deg, #ccc, #ccc 4px, #888 4px, #888 8px)"] {
+  background-color: #39322D !important;
+  background-image: repeating-linear-gradient(45deg, #ccc, #ccc 4px, #888 4px, #888 8px) !important;
+}
+
+.overflow-y-scroll {
+  scrollbar-color: #F1ECE3 #D1C1AC;
+  scrollbar-border-width: 1px;
+}
+
+/* Nav */
+nav a {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  border-width: 0px !important;
+}
+
+.branding-navbar-link-color:hover {
+  color: #B37958 !important;
+}
+
+nav a img {
+  content: url("https://static.wixstatic.com/media/9c9fba_f4684fa54e754825a56238c3d5fae7b5~mv2.png/v1/fill/w_333,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_cropped.png");
+  max-width: 400px !important;
+}
+
+nav div.h-24 {
+  height: 3.5rem;
+  max-width: 1000px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav div.px-4 {
+  border-bottom-width: 10px;
+  border-color: #C85633 !important;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100% !important;
+
+}
+
+nav div.xl\:ml-6 {
+  margin-left: auto;
+}
+
+div.container {
+  max-width: 1000px !important;
+}
+
+div.bg-emerald-100 {
+  background-color: #d1e3dc !important; /* Pale green */
+}
+
+div.lg\:hover\:bg-red-200:hover {
+  background-color: #ebd3d4 !important; /* Pale red */
+}
+
+div.hover\:bg-indigo-100:hover {
+  background-color: #D1C1AC !important;
+}
+
+div#estimated-cost-holder div {
+  background-color: #D1C1AC !important;
+}
+span.text-gray-500 {
+  color: #C3BEB6 !important;
+}
+
+button.bg-white svg {
+  color: #39322D !important;
+}
+ 
+/* Payments */
+span.sumup-payment-1u0fkm7 {
+  color: #F1ECE3 !important;
+}
+
+a.border-gray-300 {
+  color: #39322D !important;
+}
