@@ -1,8 +1,22 @@
 @font-face {
   font-display: swap;
   font-family: Season Sans Light;
-  src: url("https://raw.githack.com/davewalkercornes/the-armstrong/main/src/styles/fonts/SeasonSans-Light.otf") format("opentype"),
-  url("https://raw.githack.com/davewalkercornes/the-armstrong/main/src/styles/fonts/SeasonSans-Light.ttf") format("truetype");
+  src: url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Light.otf") format("opentype"),
+  url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Season Sans Regular;
+  src: url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Regular.otf") format("opentype"),
+  url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Season Sans Medium;
+  src: url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Medium.otf") format("opentype"),
+  url("https://rawcdn.githack.com/davewalkercornes/the-armstrong-assets/c93a61460910e3d38aa213f1ea2ce1fbf4e1fa99/fonts/SeasonSans-Medium.ttf") format("truetype");
 }
 
 body, th {
@@ -27,7 +41,6 @@ p, h1, h2, h3, h4, h5, h6, a, li, div, td, th, tr, dd,
 label, span.text-black, div#facility-legend span, button svg, 
 tbody, button.text-indigo-500, .trix-content h2, .trix-content h3,
 h2.text-2xl span {
-  color: #232323 !important;
   border-color: black !important;
 }
 
@@ -165,9 +178,14 @@ nav a {
   color: #B37958 !important;
 }
 
+nav div.mr-4 a {
+  height: 50px;
+}
+
 nav a img {
   content: url("https://static.wixstatic.com/media/9c9fba_f4684fa54e754825a56238c3d5fae7b5~mv2.png/v1/fill/w_333,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_cropped.png");
   max-width: 400px !important;
+  height: 40px !important;
 }
 
 nav div.h-24 {
@@ -180,11 +198,24 @@ nav div.h-24 {
 nav div.px-4 {
   border-bottom-width: 10px;
   border-color: #C85633 !important;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   margin-left: 0px;
   margin-right: 0px;
   max-width: 100% !important;
+  height: 56px;
+}
 
+nav div a.branding-navbar-link-color {
+  height: 48px;
+  font-size: 18px !important;
+}
+
+nav div.pr-2 {
+  height: 48px;
+}
+
+nav div a.branding-tertiary-color {
+  font-size: 18px !important;
 }
 
 nav div.xl\:ml-6 {
